@@ -1,0 +1,38 @@
+{
+  "DIACRITICS": {
+    "DESC": "Add diacritics to Romanian text",
+    "PROMPT": "Below is a text in Romanian written without diacritics. \nPlease add diacritics where needed, without changing the wording in any way.\nPlease do not add any additional text or explanations.\nIf text is not in Romanian, please ignore the previous instructions, and just answer that the text is not in Romanian.\nHere is the text:",
+    "CHUNKERS": ["sentence_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "ro"
+  },
+  "SUMMARIZE": {
+    "DESC": "Create concise summary of Romanian text",
+    "PROMPT": "Below is a text in Romanian. \nPlease create a concise summary that captures the main points.\nKeep the summary to about 20% of the original length.\nHere is the text:",
+    "CHUNKERS": ["paragraph_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "ro"
+  },
+  "EDIT": {
+    "DESC": "Improve grammar, clarity, and flow of a text in Romanian",
+    "PROMPT": "Below is a text in Romanian. \nPlease improve this text by correcting grammatical errors,\nimproving clarity and flow, without changing the meaning.\nHere is the text:",
+    "CHUNKERS": ["sentence_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "ro"
+  },
+  "TRANSLATE_RO_EN": {
+    "DESC": "Translate Romanian text to English",
+    "PROMPT": "Below is a text in Romanian. Please translate it to English, preserving the meaning and tone. Please only show the final translation, without any other comments. Here is the text:",
+    "CHUNKERS": ["sentence_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "ro"
+  },
+  "TRANSLATE_EN_RO": {
+    "DESC": "Translate English text to Romanian",
+    "PROMPT": "Below is a text in English. Please translate it to Romanian, preserving the meaning and tone. Please only show the final translation, without any other comments. Here is the text:",
+    "CHUNKERS": ["sentence_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "en"
+  },
+  "CUSTOM": {
+    "DESC": "Custom text processing with user-defined prompt",
+    "PROMPT": "Please process the following text according to your instructions:",
+    "CHUNKERS": ["paragraph_split", "size_optimizing"],
+    "INPUT_LANGUAGE": "ro"
+  }
+}

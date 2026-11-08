@@ -1,0 +1,5 @@
+# No external dependencies required.
+# This project uses only the Python 3.7+ standard library.
+# External service: Ollama (https://ollama.ai)
+#
+# Requires: Python >= 3.7

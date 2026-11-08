@@ -1,0 +1,15 @@
+{
+  "ESSENTIAL_DIRS": {
+    "INPUT_DIR": "input",
+    "OUTPUT_DIR": "output", 
+    "LOGS_DIR": "logs"
+  },
+  "SUPPORTED_TEXT_EXTENSIONS": [".txt", ".md", ".markdown"],
+  "SUPPORTED_DOCUMENT_EXTENSIONS": [".docx", ".pdf", ".html"],
+  "DEFAULT_ENCODING": "utf-8",
+  "CREATE_DIRS_IF_MISSING": true,
+  "MAX_FILENAME_LENGTH": 255,
+  "OUTPUT_SUFFIX_SEPARATOR": "_",
+  "OUTPUT_TIMESTAMP_FORMAT": "%Y%m%d_%H%M%S",
+  "DEFAULT_OUTPUT_FILENAME": "output.txt"
+}

@@ -1,0 +1,5 @@
+This is a test file in English.
+It contains multiple lines of text.
+
+It includes separate paragraphs as well.
+Used for testing read/write operations.

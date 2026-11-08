@@ -1,0 +1,5 @@
+Acesta este un fișier de test în limba română.
+Conține mai multe linii de text.
+
+Include și paragrafe separate.
+Folosit pentru testarea operațiilor de citire/scriere.

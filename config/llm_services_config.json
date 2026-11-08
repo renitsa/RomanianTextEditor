@@ -1,0 +1,7 @@
+{
+  "OLLAMA": {
+    "url": "http://localhost:11434",
+    "generate_timeout": 300,
+    "check_timeout": 5
+  }
+}

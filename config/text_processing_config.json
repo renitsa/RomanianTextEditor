@@ -1,0 +1,27 @@
+{
+  "SENTENCE_TERMINATORS": [".", "!", "?"],
+  "SECONDARY_TERMINATORS": [":", ";"],
+  "FALLBACK_SEPARATORS": ["\n", ",", " "],
+  "SPACE_SEPARATORS": [" ", "\n", "\t"],
+  "FALLBACK_CHUNK_SEPARATOR": "\n\n",
+  "STRINGSPLIT_MIN_SIZE": 20,
+  "STRINGSPLIT_MAX_SIZE": 2000,
+  "SENTENCESPLIT_MIN_SIZE": 10,
+  "SENTENCESPLIT_MAX_SIZE": 800,
+  "SIZEOPTIMIZING_MIN_SIZE": 200,
+  "SIZEOPTIMIZING_MAX_SIZE": 2000,
+  "COMMON_ENG_ABBREVIATIONS": [
+    "Dr.", "Mr.", "Mrs.", "Ms.", "St.", "Prof.", "Rev.", "Hon.",
+    "Capt.", "Gen.", "Col.", "Sgt.", "Lt.", "Jr.", "Sr.", "Inc.",
+    "Corp.", "Ltd.", "Co.", "etc.", "i.e.", "e.g.", "vs.", "Fig.",
+    "a.m.", "p.m.", "No.", "Ph.D.", "M.D.", "B.A."
+  ],
+  "COMMON_RO_ABBREVIATIONS": [
+    "Dr.", "Prof.", "Ing.", "Arh.", "Conf.", "Lect.", "Drd.",
+    "dv.", "dvs.", "etc.", "ș.a.", "ș.a.m.d.", "ex.", "pag.",
+    "vol.", "cap.", "nr.", "tel.", "str.", "bl.", "sc.", "ap.",
+    "et.", "Fig.", "fig.", "sec.", "art.", "lit.", "alin.",
+    "Ed.", "ed.", "i.e.", "e.g.", "s.r.l.", "s.a.", "vs.",
+    "a.m.", "p.m.", "s.a.m.d."
+  ]
+}
